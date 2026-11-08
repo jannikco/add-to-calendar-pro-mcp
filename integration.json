@@ -1,37 +1,60 @@
 {
   "schemaVersion": 1,
-  "status": "ready",
-  "verification": "mock-only",
-  "releaseEligible": true,
-  "maintainer": "jannikco",
-  "license": "MIT",
-  "sourceRevision": "bf1aaa33a710c80d14594c889a25f0bb56cd4910745aa55706b94786eecb0fec",
-  "evidence": [
-    "Source-backed provider setup metadata",
-    "Offline configuration and MCP protocol tests"
-  ],
-  "provenance": [
-    "https://docs.add-to-calendar-pro.com/api/introduction"
-  ],
   "id": "add-to-calendar-pro-mcp",
   "kind": "mcp-setup",
   "product": "pipmcp",
   "title": "Add to Calendar PRO MCP setup and connection checker",
-  "description": "Generate Add to Calendar PRO MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "description": "Prepare Add to Calendar PRO for AI workflows with a PipMCP setup doctor, authenticated discovery and coding-agent instructions.",
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": false,
   "operationIds": [],
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "attributionSlug": "github-add-to-calendar-pro-mcp",
+  "sourceRevision": "ad88cb8d0dc862048af3e630b5cf5e4bcc9a378a710aac4dd9f316b9f62eb664",
+  "qualityVersion": 2,
+  "artifactType": "setup",
+  "evidence": [
+    "Gateway HTTP transport fixtures",
+    "Generated stdio wrapper discovery/call fixtures"
+  ],
+  "provenance": [
+    "https://docs.add-to-calendar-pro.com/api/introduction"
+  ],
+  "utility": {
+    "problem": "Prepare Add to Calendar PRO and inspect your hosted setup",
+    "output": "Offline setup plan and authenticated discovery diagnostics"
+  },
   "appSlug": "add-to-calendar-pro",
   "appName": "Add to Calendar PRO",
-  "providerDocs": "https://docs.add-to-calendar-pro.com/api/introduction",
-  "providerWebsite": "https://add-to-calendar-pro.com/",
-  "authentication": {
-    "type": "api_key_header",
-    "requiredCredentialFields": [
-      "api_key"
-    ],
-    "requiredHeaderNames": [],
-    "helpUrl": "https://docs.add-to-calendar-pro.com/api/auth",
-    "tenantRequired": false,
-    "accountParameterNames": []
-  },
-  "attributionSlug": "github-add-to-calendar-pro-mcp"
+  "maintenanceOnly": true,
+  "executionAuthority": "pipmcp-gateway",
+  "version": "1.0.0",
+  "agentReady": true,
+  "capabilityEvidence": {
+    "local": {
+      "level": "Tested",
+      "operations": [
+        {
+          "name": "gateway_transport",
+          "level": "Tested",
+          "method": "contract-fixture",
+          "evidenceRefs": [
+            "Generated gateway/stdio fixtures"
+          ]
+        }
+      ],
+      "evidenceRefs": [
+        "Generated gateway/stdio fixtures"
+      ],
+      "mode": "local"
+    },
+    "managed": {
+      "level": "Documented",
+      "operations": [],
+      "evidenceRefs": [],
+      "mode": "managed"
+    }
+  }
 }

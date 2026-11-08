@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-add-to-calendar-pro",
+      "description": "Connect AI agents to Add to Calendar PRO using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-add-to-calendar-pro/SKILL.md": "0d20efd2045d9f453c55bedf45b7aa7624e8863d2df27037f0a22e9b4a220efd"
+  }
+}
