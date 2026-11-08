@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "bf1aaa33a710c80d14594c889a25f0bb56cd4910745aa55706b94786eecb0fec",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.add-to-calendar-pro.com/api/introduction"
+  ],
+  "id": "add-to-calendar-pro-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Add to Calendar PRO MCP setup and connection checker",
+  "description": "Generate Add to Calendar PRO MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "add-to-calendar-pro",
+  "appName": "Add to Calendar PRO",
+  "providerDocs": "https://docs.add-to-calendar-pro.com/api/introduction",
+  "providerWebsite": "https://add-to-calendar-pro.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.add-to-calendar-pro.com/api/auth",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-add-to-calendar-pro-mcp"
+}
